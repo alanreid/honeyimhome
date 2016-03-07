@@ -3,10 +3,10 @@ Honey, I'm home!
 ============
 
 Make stuff happen automatically when you get home! (and when you leave)
-This library monitors when your phone connects to your home network and makes thinks happen, like turning on your lights.
+This library monitors when your phone connects to your home network and makes things happen, like turning on your lights.
 
 ### Example
-```
+```javascript
 
 var honeyimhome = new HoneyImHome();
 
@@ -47,7 +47,7 @@ device.on('disconnected', function() {
 Actions are plugins that are executed when a device connects or disconnects. You have to set at least one. You may build your own actions as well and integrate them seamlessly with honeyimhome.
 
 Example:
-```
+```javascript
 honeyimhome.addAction(hueAction(config));
 ```
 
@@ -65,7 +65,7 @@ The first time you run this script, honeyimhome will connect to your Philips Hue
 A device finder is in charge of finding your device and you're required to set one to make this work. Since device finders are rather specific to each router, you may build your own.
 
 Example:
-```
+```javascript
 honeyimhome.setDeviceFinder(fritzboxDeviceFinder(config));
 ```
 
