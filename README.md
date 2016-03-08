@@ -3,6 +3,7 @@ Honey, I'm home!
 ============
 
 Make stuff happen automatically when you get home! (and when you leave)
+
 This library monitors when your phone connects to your home network and makes things happen, like turning on your lights.
 
 ### Example
@@ -58,11 +59,11 @@ The first time you run this script, honeyimhome will connect to your Philips Hue
 
 **HueAction configuration parameters**
 
-* `transitionSpeed` is the transition time of the fade-in and fade-out effect (in milliseconds).
+* `transitionSpeed` is the transition time of the fade-in and fade-out effect (in milliseconds) (optional).
 
-* `username` is the username hash the Hue Bridge provides after pressing the button. If you don't privide this, it will ask you to press the button every time you run this.
+* `username` is the username hash the Hue Bridge provides after pressing the button. If you don't privide this, it will ask you to press the button every time you run this (optional).
 
-* `ipaddress` is the local IP address of your Hue Bridge. If you don't provide this, it will be autodetected. Please not that providing it will make it faster.
+* `ipaddress` is the local IP address of your Hue Bridge. If you don't provide this, it will be autodetected. Please not that providing it will make it faster (optional).
 
 
 ### Device Finder
@@ -78,15 +79,15 @@ The included device finder is for Fritzbox routers. It logs in, goes to the stat
 
 **FritzboxDeviceFinder configuration parameters**
 
-* `ip` is the IP address of your Fritzbox router.
+* `ip` is the IP address of your Fritzbox router (required).
 
 * `username` is your router's username (optional).
 
 * `password` is your router's password (required).
 
-* `requestInterval` is the frequency of the status updates.
+* `requestInterval` is the frequency of the status updates (required).
 
-* `sid` is the session ID of the router. You may want to cache this to make requests faster.
+* `sid` is the session ID of the router. You may want to cache this to make requests faster (optional).
 
 
 ### License
