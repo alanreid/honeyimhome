@@ -63,7 +63,7 @@ The first time you run this script, honeyimhome will connect to your Philips Hue
 
 * `username` is the username hash the Hue Bridge provides after pressing the button. If you don't privide this, it will ask you to press the button every time you run this (optional).
 
-* `ipaddress` is the local IP address of your Hue Bridge. If you don't provide this, it will be autodetected. Please not that providing it will make it faster (optional).
+* `ipaddress` is the local IP address of your Hue Bridge. If you don't provide this, it will be autodetected. Please note that providing it will make it faster (optional).
 
 
 ### Device Finder
