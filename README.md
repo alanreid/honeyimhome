@@ -4,7 +4,7 @@ Honey, I'm home!
 
 Make stuff happen automatically when you get home! (and when you leave)
 
-This library monitors when your phone connects to your home network and makes things happen, like turning on your lights.
+This library monitors when your phone connects to your home network and makes things happen, like turning your lights on.
 
 ### Example
 ```javascript
